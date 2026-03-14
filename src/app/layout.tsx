@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://personal-portfolio-t4e2.vercel.app/"),
+  metadataBase: new URL("https://yashwanth-portfolio-chi.vercel.app/"),
   title: {
     default: "Yashwanth M K - Full Stack Engineer & DevOps Enthusiast",
     template: "%s | Yashwanth M K",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Yashwanth M K - Full Stack Engineer",
     description: "Building full stack web applications and exploring cloud infrastructure, deployment, and modern development workflows.",
-    url: "https://personal-portfolio-t4e2.vercel.app/",
+    url: "https://yashwanth-portfolio-chi.vercel.app/",
     siteName: "Yashwanth M K Portfolio",
     images: [
       {
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
   },
   
   alternates: {
-    canonical: "https://personal-portfolio-t4e2.vercel.app/",
+    canonical: "https://yashwanth-portfolio-chi.vercel.app/",
   },
 };
 
