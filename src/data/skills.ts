@@ -1,0 +1,60 @@
+import { Skill } from "@/types";
+
+export const skills: Skill[] = [
+  {
+    category: "Languages",
+    items: ["JavaScript/TypeScript", "Python", "C", "C++","Java"],
+  },
+  {
+    category: "Frontend",
+    items: ["Next.js", "React", "Tailwind"],
+  },
+  {
+    category: "Backend",
+    items: [
+      "Node.js",
+      "Express",
+      "FastAPI",
+      "NextAuth",
+      "Twilio",
+      "Socket.IO",
+    ],
+  },
+  
+  {
+    category: "Database",
+    items: ["MongoDB", "MySQL", "PostgreSQL"],
+  },
+  {
+    category: "DevOps",
+    items: ["Docker", "AWS", "Vercel", "Render", "CI/CD","Maven","Mobaxterm","Tomcat"],
+  },
+  {
+    category: "Version Control",
+    items: ["Git", "GitHub"],
+  },
+  {
+    category: "Core",
+    items: ["DSA", "OOP",],
+  },
+];
+
+export const techStack = [
+  "TypeScript",
+  "JavaScript",
+  "Python",
+  "C++",
+  "React",
+  "Next.js",
+  "Node.js",
+  "Express",
+  "FastAPI",
+  "MongoDB",
+  "MySQL",
+  "Tailwind",
+  "OpenCV",
+  "Socket.IO",
+  "AWS",
+  "Docker",
+  "Vercel",
+];
