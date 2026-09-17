@@ -3,11 +3,11 @@ import { Skill } from "@/types";
 export const skills: Skill[] = [
   {
     category: "Languages",
-    items: ["JavaScript/TypeScript", "Python", "C", "C++","Java"],
+    items: ["JavaScript/TypeScript", "Python", "Google Apps Script", "C", "C++", "Java"],
   },
   {
     category: "Frontend",
-    items: ["Next.js", "React", "Tailwind"],
+    items: ["Next.js", "React", "Tailwind", "HTML5/CSS3"],
   },
   {
     category: "Backend",
@@ -15,6 +15,7 @@ export const skills: Skill[] = [
       "Node.js",
       "Express",
       "FastAPI",
+      "Google Apps Script",
       "NextAuth",
       "Twilio",
       "Socket.IO",
@@ -42,6 +43,7 @@ export const skills: Skill[] = [
 export const techStack = [
   "TypeScript",
   "JavaScript",
+  "Google Apps Script",
   "Python",
   "C++",
   "React",

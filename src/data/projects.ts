@@ -1,7 +1,25 @@
 import { Project } from "@/types";
 
 export const projects: Project[] = [
-  
+  {
+    id: "erp-system",
+    title: "Enterprise Resource Planning (ERP / EHS) System",
+    subtitle: "EHS & Business Operations Automation Platform",
+    description:
+      "Full-stack ERP & EHS application built with Google Apps Script, custom Web UI, and automated workflows to streamline enterprise operations and compliance management.",
+    detailedDescription: [
+      "Architected and developed a full-stack Enterprise Resource Planning (ERP) & EHS system to manage business workflows, environmental health & safety compliance, and operational processes.",
+      "Built responsive web interfaces using HTML, CSS, and JavaScript integrated with custom backends.",
+      "Engineered automated workflows for data management, inventory/resource tracking, and safety compliance reporting.",
+      "Integrated Google Workspace services (Sheets, Drive, Gmail) and REST APIs for seamless real-time data synchronization.",
+      "Designed role-based operational tracking to minimize manual data entry and increase team efficiency.",
+    ],
+    technologies: ["Google Apps Script", "JavaScript", "HTML5", "CSS3", "REST APIs", "Render", "Google Workspace"],
+    github: "",
+    live: "https://erp-system-1-a997.onrender.com/",
+    gradient: "from-cyan-600 to-blue-600",
+  },
+
   {
     id: "gym-management",
     title: "Gym Management Application",
