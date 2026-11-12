@@ -25,10 +25,11 @@ export default function Projects() {
           Showing {projects.length} featured projects. Click on any project card to view details.
         </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
           {projects.map((project, index) => (
             <div
               key={project.id}
+              className="h-full flex flex-col"
               style={{
                 animation: `fadeInUp 0.6s ease-out ${index * 0.1}s both`,
               }}
